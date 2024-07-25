@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - id: build-publish
-      uses: devgl96/storybook-test@v1.0.0
+      uses: devgl96/storybook-test
       with:
         path: dist/storybook
         build_command: npm run build-storybook
